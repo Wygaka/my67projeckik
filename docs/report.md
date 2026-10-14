@@ -59,6 +59,7 @@ main.py -> infrastructure -> use_cases -> domain
 - подготовлены команды для моделирования merge conflict, reflog и bisect.
 
 Команды и пояснения находятся в `docs/git_commands.md`.
+Фактические выводы `git log`, `git tag` и тестов сохранены в `docs/git_evidence.md`.
 
 ## Ответы на контрольные вопросы
 
