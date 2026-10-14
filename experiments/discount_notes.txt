@@ -1,2 +1,0 @@
-WIP: consider configurable discount threshold.
-
