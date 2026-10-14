@@ -1,4 +1,9 @@
 from pathlib import Path
+import sys
+
+
+if __package__ in (None, ""):
+    sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 from src.infrastructure.logging_middleware import LoggingCreateOrderMiddleware
 from src.infrastructure.sqlite_repo import SqliteOrderRepository
