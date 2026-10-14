@@ -1,0 +1,10 @@
+[project]
+name = "clean-order-service"
+version = "1.0.0"
+description = "Laboratory work 7: clean architecture order service in Python"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+

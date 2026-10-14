@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run clean order service",
+      "type": "python",
+      "request": "launch",
+      "module": "src.main",
+      "justMyCode": true
+    }
+  ]
+}
+
